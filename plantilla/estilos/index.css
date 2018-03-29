@@ -1,0 +1,36 @@
+main{
+	 display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 100%;
+    margin-left: 0;
+    flex-wrap: wrap;
+    flex-grow: 0; 
+    
+}
+
+
+section, article{
+	margin-bottom: 10px;
+	box-sizing: border-box;
+	padding: 10px;
+	flex-grow: 1;
+	background-color: #fff;
+	flex-shrink: 0;
+	min-width: 570px;
+	width: 50%;
+	box-shadow: inset 0 0 0 3px #a1a1a1;
+	padding-bottom: 50px;
+}
+
+section, article hr{
+	border: 2px solid #a6d8c3;
+
+}
+
+section, article .titulo > h2{
+	font-size: 20px;
+	font-weight: bold;
+}
